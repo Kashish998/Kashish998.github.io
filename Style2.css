@@ -21,8 +21,8 @@ body {
     background-color: rgb(69, 129, 150);
     position: sticky;
     top: 0px;
-    background-image: url(images/image66.jpg);
-    font-size: 40px;
+    background-image: url(/kashi/images/image66.jpg);
+    font-size: 0px;
 }
 .footer {
     position: fixed;
@@ -104,17 +104,25 @@ body {
 }
 
 .content-right img {
-    height: 280px;
-    border: 2px solid black;
+    height: 200px;
+    border: 4px solid black;
     border-radius: 500px;
+    padding-bottom: 600px;
 }
 
 .content-right {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 400px;
+    height: 300px;
     padding-left: 20px;
+    background-image: url(/kashi/images/blogging-.jpg);
+    border: 2px solid black;
+    font-family: -webkit-body;
+    border-radius: 300px;
+    background-size: cover;
+}
 }
 
 .home-articles {
@@ -184,7 +192,7 @@ html {
     color: white;
     text-align: center;
     padding-top: 20px;
-    background-color: #0b2742;
+    background-color: cadetblue;
   }
   .infozz{
     padding-bottom: 60px;
